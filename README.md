@@ -50,7 +50,7 @@ python scripts/detect_video.py --input video.mp4 --output results/detected.mp4
 
 ### Custom confidence threshold:
 ```bash
-python scripts/detect_video.py --confidence 0.6
+python scripts/detect_video.py --confidence 0.3
 ```
 
 ## Configuration
