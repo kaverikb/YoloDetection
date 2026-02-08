@@ -1,0 +1,29 @@
+detection:
+  model: "yolov8m.pt"
+  confidence: 0.3
+  iou: 0.45
+
+classes:
+  - person
+  - car
+  - truck
+  - bus
+  - motorcycle
+  - bicycle
+
+video:
+  input_path: "data/input_videos"
+  output_path: "data/output_videos"
+  frame_skip: 1
+
+visualization:
+  draw_boxes: true
+  draw_labels: true
+  draw_confidence: true
+  box_thickness: 2
+  font_scale: 0.6
+  colors:
+    person: [0, 255, 0]
+    vehicle: [0, 165, 255]
+
+device: "cpu"
