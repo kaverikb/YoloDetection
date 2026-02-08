@@ -4,7 +4,7 @@ A simple and efficient video object detection system using YOLOv8 and OpenCV.
 
 ## Features
 
-- YOLOv8 object detection (person, car, truck, bus, motorcycle, bicycle)
+- YOLOv8 object detection 
 - Real-time bounding box visualization
 - Video processing with frame-by-frame detection
 - Configurable confidence thresholds
